@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523F02AB1EF7AE9300179192 /* Pinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F02AA1EF7AE9300179192 /* Pinger.swift */; };
 		527E344A1EF7A4ED004C78DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E34491EF7A4ED004C78DF /* AppDelegate.swift */; };
 		527E344C1EF7A4ED004C78DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E344B1EF7A4ED004C78DF /* ViewController.swift */; };
 		527E344E1EF7A4ED004C78DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527E344D1EF7A4ED004C78DF /* Assets.xcassets */; };
 		527E34511EF7A4ED004C78DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527E344F1EF7A4ED004C78DF /* Main.storyboard */; };
 		527E345C1EF7A4ED004C78DF /* MenuPingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E345B1EF7A4ED004C78DF /* MenuPingTests.swift */; };
+		EB38E45FD33502EE8E641CB5 /* Pods_MenuPing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068AB06724D0DFA0EEABF861 /* Pods_MenuPing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		068AB06724D0DFA0EEABF861 /* Pods_MenuPing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenuPing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		523F02AA1EF7AE9300179192 /* Pinger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pinger.swift; sourceTree = "<group>"; };
 		527E34461EF7A4ED004C78DF /* MenuPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527E34491EF7A4ED004C78DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527E344B1EF7A4ED004C78DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		527E34571EF7A4ED004C78DF /* MenuPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527E345B1EF7A4ED004C78DF /* MenuPingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPingTests.swift; sourceTree = "<group>"; };
 		527E345D1EF7A4ED004C78DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECDCC153F6334B032566B02 /* Pods-MenuPing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuPing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MenuPing/Pods-MenuPing.debug.xcconfig"; sourceTree = "<group>"; };
+		96BAAE699BD58FF3C90A7AF4 /* Pods-MenuPing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuPing.release.xcconfig"; path = "Pods/Target Support Files/Pods-MenuPing/Pods-MenuPing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB38E45FD33502EE8E641CB5 /* Pods_MenuPing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +67,8 @@
 				527E34481EF7A4ED004C78DF /* MenuPing */,
 				527E345A1EF7A4ED004C78DF /* MenuPingTests */,
 				527E34471EF7A4ED004C78DF /* Products */,
+				6179482527FC7549E095D3BE /* Pods */,
+				7FF8B406EA9EBFCC3B02AB2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				527E34491EF7A4ED004C78DF /* AppDelegate.swift */,
+				523F02AA1EF7AE9300179192 /* Pinger.swift */,
 				527E344B1EF7A4ED004C78DF /* ViewController.swift */,
 				527E344D1EF7A4ED004C78DF /* Assets.xcassets */,
 				527E344F1EF7A4ED004C78DF /* Main.storyboard */,
@@ -93,6 +103,23 @@
 			path = MenuPingTests;
 			sourceTree = "<group>";
 		};
+		6179482527FC7549E095D3BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDCC153F6334B032566B02 /* Pods-MenuPing.debug.xcconfig */,
+				96BAAE699BD58FF3C90A7AF4 /* Pods-MenuPing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FF8B406EA9EBFCC3B02AB2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				068AB06724D0DFA0EEABF861 /* Pods_MenuPing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527E34601EF7A4ED004C78DF /* Build configuration list for PBXNativeTarget "MenuPing" */;
 			buildPhases = (
+				8496B1297243175564D8A923 /* [CP] Check Pods Manifest.lock */,
 				527E34421EF7A4ED004C78DF /* Sources */,
 				527E34431EF7A4ED004C78DF /* Frameworks */,
 				527E34441EF7A4ED004C78DF /* Resources */,
+				BFB0863D106ACE66AA6FE0AD /* [CP] Embed Pods Frameworks */,
+				4758060DBEB0EABF55B7314C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,11 +222,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4758060DBEB0EABF55B7314C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenuPing/Pods-MenuPing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8496B1297243175564D8A923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB0863D106ACE66AA6FE0AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenuPing/Pods-MenuPing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		527E34421EF7A4ED004C78DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F02AB1EF7AE9300179192 /* Pinger.swift in Sources */,
 				527E344C1EF7A4ED004C78DF /* ViewController.swift in Sources */,
 				527E344A1EF7A4ED004C78DF /* AppDelegate.swift in Sources */,
 			);
@@ -326,28 +405,36 @@
 		};
 		527E34611EF7A4ED004C78DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECDCC153F6334B032566B02 /* Pods-MenuPing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8YABKJZHUA;
 				INFOPLIST_FILE = MenuPing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnmckerrell.MenuPing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		527E34621EF7A4ED004C78DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BAAE699BD58FF3C90A7AF4 /* Pods-MenuPing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8YABKJZHUA;
 				INFOPLIST_FILE = MenuPing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnmckerrell.MenuPing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -403,6 +490,7 @@
 				527E34621EF7A4ED004C78DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527E34631EF7A4ED004C78DF /* Build configuration list for PBXNativeTarget "MenuPingTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +499,7 @@
 				527E34651EF7A4ED004C78DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
